@@ -1,4 +1,3 @@
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/test/java/tests/telecomunications/positive/MobilePhoneReplenishmentPositiveTest.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/test/java/tests/loans/positive/CarLoansPositiveTest.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/test/java/tests/base/BaseTest.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/test/java/tests/base/Listener.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/test/java/tests/car_loans/positive/CarLoansPositiveTest.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/test/java/tests/base/BaseTest.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/test/java/tests/mobile_replenishment/positive/MobilePhoneReplenishmentPositiveTest.java

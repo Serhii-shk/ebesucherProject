@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: tests.mobile_replenishment.positive.MobilePhoneReplenishmentPositiveTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 45.958 s <<< FAILURE! - in tests.mobile_replenishment.positive.MobilePhoneReplenishmentPositiveTest
+selectAgreementsTabInPubSession  Time elapsed: 44.518 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.247
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MacBook-Air-2', ip: 'fe80:0:0:0:2f:7c95:718:29d3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [317bd6f8362709f82aeab672a0d50f10, get {url=https://next.privat24.ua/auto-credit/order?lang=en}]
+selenide.url: https://next.privat24.ua/auto-credit/order?lang=en
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/_g/j6dsv2791bv...}, goog:chromeOptions: {debuggerAddress: localhost:52091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52091/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: 317bd6f8362709f82aeab672a0d50f10
+	at tests.car_loans.positive.CarLoansPositiveTest.selectAgreementsTabInPubSession(CarLoansPositiveTest.java:41)
+
+applyingForAnOldCarLoanPublicSession  Time elapsed: 44.858 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.191
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MacBook-Air-2', ip: 'fe80:0:0:0:2f:7c95:718:29d3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2bc18ca7143300da72b6be13484e668, get {url=https://next.privat24.ua/auto-credit/order?lang=en}]
+selenide.url: https://next.privat24.ua/auto-credit/order?lang=en
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/_g/j6dsv2791bv...}, goog:chromeOptions: {debuggerAddress: localhost:52094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52094/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: d2bc18ca7143300da72b6be13484e668
+	at tests.car_loans.positive.CarLoansPositiveTest.applyingForAnOldCarLoanPublicSession(CarLoansPositiveTest.java:25)
+
+checkRedirectOnAuthorization  Time elapsed: 44.858 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.141
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MacBook-Air-2', ip: 'fe80:0:0:0:2f:7c95:718:29d3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cffbf65b9828949606212d07e7b075a, get {url=https://next.privat24.ua/mobile?lang=en}]
+selenide.url: https://next.privat24.ua/mobile?lang=en
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/_g/j6dsv2791bv...}, goog:chromeOptions: {debuggerAddress: localhost:52090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52090/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: 1cffbf65b9828949606212d07e7b075a
+	at tests.mobile_replenishment.positive.MobilePhoneReplenishmentPositiveTest.checkRedirectOnAuthorization(MobilePhoneReplenishmentPositiveTest.java:48)
+
+checkMinimumReplenishmentAmount  Time elapsed: 44.859 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29.184
+  (Session info: chrome=101.0.4951.64)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MacBook-Air-2', ip: 'fe80:0:0:0:2f:7c95:718:29d3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd797238f6b9b036d4c2adb89afee37c, get {url=https://next.privat24.ua/mobile?lang=en}]
+selenide.url: https://next.privat24.ua/mobile?lang=en
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/_g/j6dsv2791bv...}, goog:chromeOptions: {debuggerAddress: localhost:52092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52092/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: dd797238f6b9b036d4c2adb89afee37c
+	at tests.mobile_replenishment.positive.MobilePhoneReplenishmentPositiveTest.checkMinimumReplenishmentAmount(MobilePhoneReplenishmentPositiveTest.java:29)
+

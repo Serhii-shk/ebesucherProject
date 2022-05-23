@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="selenium_course" />
         <module name="udemySelenideProject" />
+        <module name="airslateProject" />
         <module name="selenium" />
         <module name="selenium-course" />
       </profile>

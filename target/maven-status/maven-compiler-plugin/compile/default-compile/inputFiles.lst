@@ -1,6 +1,7 @@
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/constans/Constant.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/pages/telecomunications/MobilePhoneReplenishmentPage.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/common/CommonActions.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/pages/loans/CarLoansPage.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/pages/base/BasePage.java
-/Users/serhii_shkurenko/Desktop/projects/selenium_course/src/main/java/common/Config.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/common/Listener.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/constans/Constants.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/pages/loans/CarLoans.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/common/CommonActions.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/common/Config.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/pages/base/BasePage.java
+/Users/serhii_shkurenko/Desktop/projects/udemySelenideProject/src/main/java/pages/telecomunications/MobilePhoneReplenishment.java
