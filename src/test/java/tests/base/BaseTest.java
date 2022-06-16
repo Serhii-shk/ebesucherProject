@@ -4,9 +4,11 @@ import common.Config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pages.base.BasePage;
-import pages.domainSelect.DomainSelect;
-import pages.loginMenu.ForgotPassword;
-import pages.loginMenu.Login;
+import pages.discoverWebsites.DiscoverWebsites;
+import pages.loginMenu.LoginForm;
+import pages.loginMenu.LoginPage;
+import pages.surfbar.Surfbar;
+
 import java.io.File;
 import java.time.LocalTime;
 import java.util.Objects;
@@ -14,10 +16,12 @@ import java.util.Objects;
 public class BaseTest {
 
 	protected BasePage basePage = new BasePage();
-	protected Login login = new Login();
-	protected DomainSelect domainSelect = new DomainSelect();
-	protected ForgotPassword forgotPassword = new ForgotPassword();
+	protected LoginForm loginForm = new LoginForm();
+	protected LoginPage loginPage = new LoginPage();
+	protected DiscoverWebsites discoverWebsites = new DiscoverWebsites();
+	protected Surfbar surfbar = new Surfbar();
 	private static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
+
 
 	/**
 	 * A static initialization block in order to clean the folders with reports and screenshots before starting the build

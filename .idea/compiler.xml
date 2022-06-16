@@ -9,6 +9,7 @@
         <module name="selenium_course" />
         <module name="udemySelenideProject" />
         <module name="airslateProject" />
+        <module name="ebesucherProject" />
         <module name="selenium" />
         <module name="selenium-course" />
       </profile>

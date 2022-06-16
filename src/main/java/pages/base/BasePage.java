@@ -3,7 +3,11 @@ package pages.base;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.Keys;
+
+import java.time.Duration;
+
 import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 
 public class BasePage {
@@ -28,4 +32,11 @@ public class BasePage {
     public void checkMessage(String message) {
         $(byText(message)).shouldBe(Condition.visible);
     }
+
+//    public void checkNotVisibleElementOnPage(String element) {
+//        $(byXpath(element)).shouldNotBe(Condition.visible);
+////        (element).shouldNot(Condition.visible);
+//    }
+
+
 }
